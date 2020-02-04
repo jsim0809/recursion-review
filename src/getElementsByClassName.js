@@ -34,9 +34,6 @@ var getElementsByClassName = function(className
 
   var expectedNodeList = document.getElementsByClassName('targetClassName');
   var expectedArray = Array.prototype.slice.apply(expectedNodeList);
-  console.log(expectedArray);
-  console.log(result);
-
 
   return result;
 
